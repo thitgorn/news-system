@@ -60,10 +60,10 @@ return [
     */
     'useViewNamespaces' => [
         // Read module views from /Themes/<backend-theme-name>/views/modules/<module-name>
-        'backend-theme' => false,
+        'backend-theme' => true,
         // Read module views from /Themes/<frontend-theme-name>/views/modules/<module-name>
-        'frontend-theme' => false,
+        'frontend-theme' => true,
         // Read module views from /resources/views/asgard/<module-name>
-        'resources' => false,
+        'resources' => true,
     ],
 ];
